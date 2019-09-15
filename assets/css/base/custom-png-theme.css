@@ -1,0 +1,342 @@
+body .ui-button {
+  margin: 0;
+  color: #ffffff;
+  background-color: #495867;
+  border: none;
+  font-size: 14px;
+  -moz-transition: background-color 0.2s, box-shadow 0.2s;
+  -o-transition: background-color 0.2s, box-shadow 0.2s;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+body .ui-button:enabled:hover {
+  background-color: #5f6972;
+  color: #ffffff;
+  border-color: #0e1318;
+}
+
+body .ui-button:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0px;
+  -webkit-box-shadow: 0 0 0 0.2em #8dcdff;
+  -moz-box-shadow: 0 0 0 0.2em #8dcdff;
+  box-shadow: 0 0 0 0.2em #8dcdff;
+}
+
+body .ui-button:enabled:active {
+  background-color: #5f6972;
+  color: #ffffff;
+  border-color: #273138;
+}
+
+.ui-scrollpanel-bar {
+  background-color: #495867;
+  width: 5px;
+  transition: opacity 0.25s linear;
+}
+
+body .ui-tabview.ui-tabview-top,
+body .ui-tabview.ui-tabview-bottom,
+body .ui-tabview.ui-tabview-left,
+body .ui-tabview.ui-tabview-right {
+  border: 0 none;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav {
+  padding: 0;
+  background: transparent;
+  border: 0 none;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li {
+  border: none;
+  background-color: #d4e7f3;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
+  float: none;
+  display: inline-block;
+  color: #333333;
+  padding: 0.571em 1em;
+  font-weight: 700;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li a .ui-tabview-left-icon {
+  /* margin-right: 0.5em; */
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li a .ui-tabview-right-icon {
+  /* margin-left: 0.5em; */
+  margin-left: 0;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li .ui-tabview-close,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li .ui-tabview-close,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li .ui-tabview-close,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li .ui-tabview-close {
+  color: #848484;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover {
+  background-color: #dbdbdb;
+  /* border: 1px solid #dbdbdb; */
+  border: none;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a {
+  color: #333333;
+}
+
+body
+  .ui-tabview.ui-tabview-top
+  .ui-tabview-nav
+  li:not(.ui-state-active):not(.ui-state-disabled):hover
+  .ui-tabview-close,
+body
+  .ui-tabview.ui-tabview-bottom
+  .ui-tabview-nav
+  li:not(.ui-state-active):not(.ui-state-disabled):hover
+  .ui-tabview-close,
+body
+  .ui-tabview.ui-tabview-left
+  .ui-tabview-nav
+  li:not(.ui-state-active):not(.ui-state-disabled):hover
+  .ui-tabview-close,
+body
+  .ui-tabview.ui-tabview-right
+  .ui-tabview-nav
+  li:not(.ui-state-active):not(.ui-state-disabled):hover
+  .ui-tabview-close {
+  color: #333333;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active {
+  /* background-color: #007ad9;
+  border: 1px solid #007ad9; */
+  background-color: #ffffff;
+  border: none;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active a {
+  /* color: #ffffff; */
+  color: #000000;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active .ui-tabview-close,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active .ui-tabview-close,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active .ui-tabview-close,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active .ui-tabview-close {
+  /* color: #ffffff; */
+  color: #000000;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active:hover,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active:hover,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active:hover {
+  /* border: 1px solid #005b9f;
+  background-color: #005b9f; */
+  border: none;
+  background-color: inherit;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active:hover a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active:hover a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active:hover a {
+  /* color: #ffffff; */
+  color: #000000;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-right-icon,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-left-icon,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-active:hover a .ui-tabview-right-icon {
+  /* color: #ffffff; */
+  color: #000000;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-tabview-selected a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-tabview-selected a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-tabview-selected a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-tabview-selected a {
+  cursor: pointer;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav {
+  margin-bottom: -1px;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li {
+  margin-right: 2px;
+}
+
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav {
+  margin-top: -1px;
+}
+
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li {
+  margin-right: 2px;
+}
+
+body .ui-tabview.ui-tabview-left .ui-tabview-nav {
+  margin-right: -px;
+}
+
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li {
+  margin-bottom: 2px;
+}
+
+body .ui-tabview.ui-tabview-right .ui-tabview-nav {
+  margin-right: -1px;
+}
+
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li {
+  margin-bottom: 2px;
+}
+
+body .ui-tabview .ui-tabview-panels {
+  background-color: #ffffff;
+  padding: 0.571em 1em;
+  /* border: 1px solid #c8c8c8; */
+  border: none;
+  color: #333333;
+}
+
+body .ui-tabview .ui-tabview-panels .ui-tabview-panel {
+  padding: 0;
+}
+
+body .ui-inplace {
+  min-height: 1.1em;
+}
+.display_none {
+  display: none;
+}
+
+body .ui-accordion .ui-accordion-header {
+  margin-bottom: 5px;
+}
+body .ui-accordion .ui-accordion-header a {
+  padding: 0.571em 1em;
+  border: none;
+  color: #333333;
+  background-color: #eef6fa;
+  color: #333333;
+  font-weight: 700;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+body .ui-accordion .ui-accordion-header a .ui-accordion-toggle-icon {
+  color: #848484;
+}
+body .ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
+  background-color: #dbdbdb;
+  border: none;
+  color: #333333;
+}
+body
+  .ui-accordion
+  .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover
+  a
+  .ui-accordion-toggle-icon {
+  color: #333333;
+}
+body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a {
+  background-color: #9dbeda;
+  border: none;
+  color: #333333;
+}
+body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a .ui-accordion-toggle-icon {
+  color: #333333;
+}
+body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
+  border: none;
+  background-color: #9dbeda;
+  color: #333333;
+}
+body .ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a .ui-accordion-toggle-icon {
+  color: #333333;
+}
+body .ui-accordion .ui-accordion-content {
+  padding: 0.571em 1em;
+  border: none;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 0.571em 1em;
+}
+
+body .ui-inputtext {
+  font-size: 14px;
+  color: #333333;
+  background: #ffffff;
+  padding: 0.429em;
+  border: none;
+  border-bottom: 1px solid #a6a6a6;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body .ui-inputgroup .ui-inputtext {
+  border-bottom: none;
+}
+
+body .ui-inputgroup {
+  border-bottom: 1px solid #a6a6a6;
+}
+
+body .ui-inputgroup .ui-inputgroup-addon {
+  border: none;
+  background-color: inherit;
+  color: #848484;
+  padding: 0.429em;
+  min-width: 2em;
+}

@@ -1,0 +1,16 @@
+.text_thing {
+    font-weight: 100;
+}
+.text_light {
+    font-weight: 300;
+}
+.text_regular {
+    font-weight: 400;
+}
+.text_medium {
+    font-weight: 500;
+}
+.white-space {
+    width: 100%;
+}
+

@@ -1,0 +1,133 @@
+.side {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #2a3140;
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+}
+.side_active {
+    width: 260px;
+}
+.side__png {
+    display: block;
+    height: 31px;
+    width: auto;
+    margin-left: 26px;
+}
+.side_img {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    flex-wrap: wrap;
+}
+.side__img::after {
+    content: '';
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background: #ffffff;
+    transform: translate(0, 5px);
+}
+.side__meneger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.side__face {
+    display: block;
+    width: 41px;
+    height: 41px;
+}
+.side__member {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.side__meneger {
+    margin-left: 26px;
+    color: #ffffff;
+}
+.side__name {
+    margin-left: 22px;
+    font-size: 18px;
+    display: none;
+}
+.side__position {
+    display: block;
+    font-size: 15px;
+    color: #909090;
+}
+.side__name_active {
+    display: block;
+}
+.side__member::after {
+    content: '';
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background: #9598a0;
+    transform: translate(0, -5px);
+}
+.side__menu {
+    list-style: none;
+}
+.side__svg {
+    height: 41px;
+    width: 41px;
+    fill: #ffffff;
+}
+.side__card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 64px;
+    padding-left: 26px;
+}
+.side__text {
+    color: #ffffff;
+    margin-left: 22px;
+    font-size: 18px;
+    /*display: none;*/
+}
+.side__card_hover:hover {
+    background: #1f242e;
+}
+.side__card_active {
+    background: #394357;
+	
+}
+.side__inner {
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+}
+.side__inner_active {
+    height: auto;
+    background: #242a36;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.side__inner-item {
+    height: 34px;
+    padding-left: 88px;
+    width: 100%;
+}
+.side__inner-item_hover:hover {
+    background: #1f242e;
+}
+.side__inner-item_active {
+    background: #1f242e;
+}
+.side__inner-text {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 34px;
+    font-size: 16px;
+}

@@ -1,0 +1,50 @@
+.top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 52px;
+    box-shadow: 0px 2px 8px -3px rgba(17, 17, 17, .3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1420px;
+    padding-left: 15px;
+    padding-right: 22px;
+}
+.top__title {
+    display: flex;
+    /*display: none;*/
+}
+.top__svg_next-page {
+    display: none;
+}
+.top__head {
+    margin-left: 12px;
+    color: #cccccc;
+    font-size: 20px;
+}
+.top__menu {
+    display: flex;
+}
+.top__menu {
+    list-style: none;
+}
+.top__item {
+    margin-left: 21px;
+}
+.top__link {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.top__svg {
+    width: 25px;
+    height: 26px;
+    fill: #cccccc;
+}
+.top__svg_hover:hover {
+    fill: #45a3e6;
+}
+.top__svg_hamburger {
+    fill: #909090;
+}
